@@ -15,7 +15,7 @@ export const AboutSection = () => {
               A dedicated and detail-oriented designer with a strong foundation in visual communication and a passion for creating thoughtful, impactful design solutions. With experience across digital and print platforms, I specialize in developing cohesive brand identities, user-centric interfaces, and visually compelling content that aligns with strategic objectives.
             </p>
             <p>
-              No Industrial Experience
+              No Industrial Experience Yet
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
