@@ -8,7 +8,7 @@ const skills = [
     {name: "Innovative Thinking", category: 'Social Media Designs', level: "Advanced", percent: "90"},
     {name: "Creative Thinking", category:'Logos', level: "Advanced", percent: "80"},
     {name: "Design Thinking", category:'Social Media Designs', level: "Advanced", percent: "100"},
-    {name: "Marketing Influencer", catefory: 'Others', level: "Beginner", percent: "40"},
+    {name: "Marketing Influencer", category: 'Others', level: "Beginner", percent: "40"},
     
 ];
 
@@ -18,7 +18,7 @@ const categories = ['all', 'Social Media Designs', 'Logos', 'Others']
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState('all')
-    const filteredSkills = skills.filter((skill) => activeCategory === 'all' || skill.category.toLowerCase() === activeCategory);
+    const filteredSkills = skills.filter((skill) => activeCategory === 'all' || skill.category?.toLowerCase() === activeCategory.toLowerCase());
 
     return <section id="skills" className="py-24 px-4 relative bg-secondary/30">
         <div className="container mx-auto max-w-5xl">
