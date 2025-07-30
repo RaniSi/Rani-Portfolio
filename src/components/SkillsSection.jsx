@@ -2,25 +2,16 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-    {name: "JavaScript", level: "Advanced", category: "Programming", percent: "80"},
-    {name: "React", level: "Intermediate", category: "Framework", percent: "75"},
-    {name: "CSS", level: "Advanced", category: "Styling", percent: "85"},
-    {name: "TypeScript", level: "Intermediate", category: "Programming", percent: "70"},
+    {name: "Canva", level: "Advanced", percent: "100"},
+    {name: "Social Media Designer", level: "Advanced", percent: "80"},
+    {name: "Innovative Thinking", level: "Advanced", percent: "90"},
+    {name: "Creative Thinking", level: "Advanced", percent: "80"},
+    {name: "Design Thinking", level: "Advanced", percent: "100"},
+    {name: "Marketing Influencer", level: "Beginner", percent: "40"},
     
-    { name: "Node.js", level: "Intermediate", category: "Backend", percent: "75" },
-    {name: "Python", level: "Advanced", category: "Programming", percent: "80"},
-    {name: "Django", level: "Intermediate", category: "Framework", percent: "70"},
-    {name: "SQL", level: "Advanced", category: "Database", percent: "85"},
-    
-    {name: "Git", level: "Advanced", category: "Version Control", percent: "80"},
-    { name: "GraphQL", level: "Intermediate", category: "API", percent: "70" },
-    {name: "Docker", level: "Intermediate", category: "DevOps", percent: "60"},
-    {name: "AWS", level: "Intermediate", category: "Cloud", percent: "65"},
-    {name: "HTML", level: "Advanced", category: "Markup", percent: "90"},
-    {name: "Redux", level: "Intermediate", category: "State Management", percent: "75"},
 ];
 
-const categories = ['all', 'frontend', 'backend']
+const categories = ['all', 'Social Media Designs', 'Logos']
 
 
 
