@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, HardDrive } from 'lucide-react';
 import { ArrowRight } from 'lucide-react';
 
 const projects = [
@@ -8,17 +8,17 @@ const projects = [
         description: 'Seasonal campaign add-on to your previous cafe project, Fall-themed Insta posts (pumpkin spice, cozy drinks, special discounts), Poster for “Open Mic Night” at the cafe and Loyalty card design',
         image: './projects/Bloom Cafe Logo.png',
         tags: ['Social Media', 'Branding', 'Print Design'],
-        demoUrl: '#',
-        githubUrl: '#'
+        demoUrl: 'https://drive.google.com/drive/folders/1A_CzXylQbMWzEHcI-cCy8DgUBR11Hpai?usp=sharing',
+        githubUrl: 'https://drive.google.com/drive/folders/1A_CzXylQbMWzEHcI-cCy8DgUBR11Hpai?usp=sharing'
     },
     {
         id: 2,
         title: 'BakeFest 2025 - Jaipur',
         description: 'A city-wide baking festival for home bakers & foodies, Poster or flyer, Instagram carousel (with details of event, guests, and location) and Badge or tag design for attendees',
-        image: '',
+        image: './projects/Bake Feast.png',
         tags: ['Social Media', 'Branding', 'Print Design'],
-        demoUrl: '#',
-        githubUrl: '#'
+        demoUrl: 'https://drive.google.com/drive/folders/198v7DPb6s-WZLqGbVRftD7Hdf0-tUh8Q?usp=sharing',
+        githubUrl: 'https://drive.google.com/drive/folders/198v7DPb6s-WZLqGbVRftD7Hdf0-tUh8Q?usp=sharing'
     },
     {
         id: 3,
@@ -26,27 +26,37 @@ const projects = [
         description: 'Natural skincare brand targeting Gen Z, Logo & brand palette, 3 Instagram posts: product highlight, skincare tips, launch offer and 1 story template',
         image: './projects/Glow Skin Logo.png',
         tags: ['Social Media', 'Branding', 'Print Design'],
-        demoUrl: '#',
-        githubUrl: '#'
+        demoUrl: 'https://drive.google.com/drive/folders/1AEd-XpypJg0a3e3ETAz1rUmyQkXNj9ij?usp=sharing',
+        githubUrl: 'https://drive.google.com/drive/folders/1AEd-XpypJg0a3e3ETAz1rUmyQkXNj9ij?usp=sharing'
     },
     {
         id: 4,
         title: 'EcoWrap - Reusable Food Wraps',
         description: 'Sustainable kitchen brand, Google Display ads or Facebook ad mockups (3 sizes), Instagram post + Story design and Product insert (thank-you card or usage instructions) ',
-        image: '',
+        image: './projects/Eco Wrap.png',
         tags: ['Social Media', 'Branding', 'Print Design'],
-        demoUrl: '#',
-        githubUrl: '#'
+        demoUrl: 'https://drive.google.com/drive/folders/175LysYsLXysVQE7OzNxYiCeuTrT3xHZ6?usp=sharing',
+        githubUrl: 'https://drive.google.com/drive/folders/175LysYsLXysVQE7OzNxYiCeuTrT3xHZ6?usp=sharing'
     },
     {
         id: 5,
-        title: '',
-        description: '',
-        image: '',
+        title: 'Sia Rain – Spoken Word & Poetry Artist Branding',
+        description: 'A fictional poet who shares deeply emotional short poems through visuals, performances, and minimalist social media storytelling, Monogram or Wordmark Logo (Sia Rain)Instagram Quote Series, Story Template for New Poem Drops, Bookmark Merch Mockup',
+        image: './projects/Poetry.png',
         tags: ['Social Media', 'Branding', 'Print Design'],
-        demoUrl: '#',
-        githubUrl: '#'
+        demoUrl: 'https://drive.google.com/drive/folders/18YukbkDLUC2oa0-o9haCh_lIYo7uHzGu?usp=sharing',
+        githubUrl: 'https://drive.google.com/drive/folders/18YukbkDLUC2oa0-o9haCh_lIYo7uHzGu?usp=sharing'
+    },
+    {   
+        id: 6,
+        title: 'Aura Gelaton',
+        description: '',
+        image: './projects/Ice Cream.png',
+        tags: ['Social Media', 'Branding', 'Print Design'],
+        demoUrl: 'https://drive.google.com/drive/folders/17ilppjBqEuYWkKy9OYJdFQj_N69ySOuq?usp=sharing',
+        githubUrl: 'https://drive.google.com/drive/folders/17ilppjBqEuYWkKy9OYJdFQj_N69ySOuq?usp=sharing'
     }
+
 ]
 
 export const ProjectsSection = () => {
@@ -88,7 +98,7 @@ export const ProjectsSection = () => {
                                     <a href={project.githubUrl}
                                         target=""
                                         className="text-foreground/80 hover:text-primary transition-colors duration-300">
-                                        <Github size={20}/>
+                                        <HardDrive size={20}/>
                                     </a>
                                 </div>
                                 </div>
