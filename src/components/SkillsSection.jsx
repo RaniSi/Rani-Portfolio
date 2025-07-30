@@ -2,17 +2,17 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-    {name: "Canva", level: "Advanced", percent: "100"},
-    {name: "Logos", level: "Advanced", percent: "80"},
-    {name: "Social Media Designs", level: "Advanced", percent: "80"},
-    {name: "Innovative Thinking", level: "Advanced", percent: "90"},
-    {name: "Creative Thinking", level: "Advanced", percent: "80"},
-    {name: "Design Thinking", level: "Advanced", percent: "100"},
-    {name: "Marketing Influencer", level: "Beginner", percent: "40"},
+    {name: "Canva", level: "Advanced", category: 'Social Media Designs', percent: "100"},
+    {name: "Logos", level: "Advanced", category: 'Logos',percent: "80"},
+    {name: "Social Media Designs", category: 'Social Media Designs', level: "Advanced", percent: "80"},
+    {name: "Innovative Thinking", category: 'Social Media Designs', level: "Advanced", percent: "90"},
+    {name: "Creative Thinking", category:'Logos', level: "Advanced", percent: "80"},
+    {name: "Design Thinking", category:'Social Media Designs', level: "Advanced", percent: "100"},
+    {name: "Marketing Influencer", catefory: 'Others', level: "Beginner", percent: "40"},
     
 ];
 
-const categories = ['all', 'Social Media Designs', 'Logos']
+const categories = ['all', 'Social Media Designs', 'Logos', 'Others']
 
 
 
