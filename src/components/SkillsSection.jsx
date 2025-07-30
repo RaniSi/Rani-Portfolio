@@ -3,7 +3,8 @@ import { cn } from "@/lib/utils";
 
 const skills = [
     {name: "Canva", level: "Advanced", percent: "100"},
-    {name: "Social Media Designer", level: "Advanced", percent: "80"},
+    {name: "Logos", level: "Advanced", percent: "80"},
+    {name: "Social Media Designs", level: "Advanced", percent: "80"},
     {name: "Innovative Thinking", level: "Advanced", percent: "90"},
     {name: "Creative Thinking", level: "Advanced", percent: "80"},
     {name: "Design Thinking", level: "Advanced", percent: "100"},
