@@ -37,7 +37,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Social Media Posts</h4>
                   <p className="text-muted-foreground">
-                    Creative responsive and personalized web designs that enhance user experience and engagement.
+                    I craft scroll-stopping social media designs that blend creativity with strategy. From eye-catching visuals to cohesive branding, my goal is to turn every post into a powerful storytelling tool that connects with your audience and elevates your online presence.
                   </p>
                 </div>
               </div>
@@ -50,7 +50,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Logo Design</h4>
                   <p className="text-muted-foreground">
-                    Creative responsive and personalized web designs that enhance user experience and engagement.
+                    I design logos that are not just visually appealing but also meaningful and memorable. Each mark I create is tailored to reflect the brand’s identity, ensuring a lasting impression and a strong visual foundation.
                   </p>
                 </div>
               </div>
@@ -63,7 +63,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Project Management</h4>
                   <p className="text-muted-foreground">
-                    Creative responsive and personalized web designs that enhance user experience and engagement.
+                    I combine design thinking with strategic project management to bring social impact initiatives to life. From planning to execution, I ensure every visual and message aligns with the project's mission and engages the right audience.
                   </p>
                 </div>
               </div>
