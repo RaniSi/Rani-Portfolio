@@ -9,7 +9,7 @@ const skills = [
     {name: "Creative Thinking", category:'Logos', level: "Advanced", percent: "80"},
     {name: "Design Thinking", category:'Social Media Designs', level: "Advanced", percent: "100"},
     {name: "Marketing Influencer", category: 'Others', level: "Beginner", percent: "40"},
-    
+    {name: "Digital Marketing", category: 'Others', level: "Beginner", percent: "20"},
 ];
 
 const categories = ['all', 'Social Media Designs', 'Logos', 'Others']
