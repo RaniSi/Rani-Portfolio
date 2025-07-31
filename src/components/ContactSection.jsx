@@ -99,10 +99,10 @@ export const ContactSection = () => {
                 <a href="#" target="_blank">
                   <Twitter />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/miss._.sipani?igsh=NTBvMG44azBoa3Ry" target="_blank">
                   <Instagram />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://github.com/RaniSi" target="_blank">
                   <Github />
                 </a>
               </div>
