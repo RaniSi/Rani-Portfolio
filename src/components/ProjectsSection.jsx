@@ -50,7 +50,7 @@ const projects = [
     {   
         id: 6,
         title: 'Aura Gelaton',
-        description: '',
+        description: 'An ice cream company inauguration create a welcome post with opening details and logo mentioned in the post.',
         image: './projects/Ice Cream.png',
         tags: ['Social Media', 'Branding', 'Logo Design'],
         demoUrl: '#',
