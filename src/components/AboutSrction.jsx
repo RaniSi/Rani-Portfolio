@@ -12,7 +12,7 @@ export const AboutSection = () => {
             <img 
               src="/DP.jpg" 
               alt="Rani Sipani" 
-              className="w-32 h-32 rounded-full mx-auto md:mx-0 shadow-md object-cover" 
+              className="w-80 h-80 rounded-full mx-auto md:mx-0 shadow-md object-cover" 
             />
             <h3 className="text-2xl font-size semibold">Passionate Designer </h3>
 
