@@ -8,7 +8,7 @@ const projects = [
         description: 'Seasonal campaign add-on to your previous cafe project, Fall-themed Insta posts (pumpkin spice, cozy drinks, special discounts), Poster for “Open Mic Night” at the cafe and Loyalty card design',
         image: './projects/Bloom Cafe Logo.png',
         tags: ['Social Media', 'Branding', 'Print Design'],
-        demoUrl: '#',
+        demoUrl: 'https://drive.google.com/drive/folders/1A_CzXylQbMWzEHcI-cCy8DgUBR11Hpai?usp=sharing',
         githubUrl: 'https://drive.google.com/drive/folders/1A_CzXylQbMWzEHcI-cCy8DgUBR11Hpai?usp=sharing'
     },
     {
@@ -17,7 +17,7 @@ const projects = [
         description: 'A city-wide baking festival for home bakers & foodies, Poster or flyer, Instagram carousel (with details of event, guests, and location) and Badge or tag design for attendees',
         image: './projects/Bake Feast.png',
         tags: ['Social Media', 'Branding', 'Print Design'],
-        demoUrl: '#',
+        demoUrl: 'https://drive.google.com/drive/folders/198v7DPb6s-WZLqGbVRftD7Hdf0-tUh8Q?usp=sharing',
         githubUrl: 'https://drive.google.com/drive/folders/198v7DPb6s-WZLqGbVRftD7Hdf0-tUh8Q?usp=sharing'
     },
     {
@@ -26,7 +26,7 @@ const projects = [
         description: 'Natural skincare brand targeting Gen Z, Logo & brand palette, 3 Instagram posts: product highlight, skincare tips, launch offer and 1 story template',
         image: './projects/Glow Skin Logo.png',
         tags: ['Social Media', 'Branding', 'Logo Design'],
-        demoUrl: '#',
+        demoUrl: 'https://drive.google.com/drive/folders/1AEd-XpypJg0a3e3ETAz1rUmyQkXNj9ij?usp=sharing',
         githubUrl: 'https://drive.google.com/drive/folders/1AEd-XpypJg0a3e3ETAz1rUmyQkXNj9ij?usp=sharing'
     },
     {
@@ -35,7 +35,7 @@ const projects = [
         description: 'Sustainable kitchen brand, Google Display ads or Facebook ad mockups (3 sizes), Instagram post + Story design and Product insert (thank-you card or usage instructions) ',
         image: './projects/Eco Wrap.png',
         tags: ['Social Media', 'Branding', 'Logo Design'],
-        demoUrl: '#',
+        demoUrl: 'https://drive.google.com/drive/folders/175LysYsLXysVQE7OzNxYiCeuTrT3xHZ6?usp=sharing',
         githubUrl: 'https://drive.google.com/drive/folders/175LysYsLXysVQE7OzNxYiCeuTrT3xHZ6?usp=sharing'
     },
     {
@@ -44,7 +44,7 @@ const projects = [
         description: 'A fictional poet who shares deeply emotional short poems through visuals, performances, and minimalist social media storytelling, Monogram or Wordmark Logo (Sia Rain)Instagram Quote Series, Story Template for New Poem Drops, Bookmark Merch Mockup',
         image: './projects/Poetry.png',
         tags: ['Social Media', 'Branding', 'Logo Design'],
-        demoUrl: '#',
+        demoUrl: 'https://drive.google.com/drive/folders/18YukbkDLUC2oa0-o9haCh_lIYo7uHzGu?usp=sharing',
         githubUrl: 'https://drive.google.com/drive/folders/18YukbkDLUC2oa0-o9haCh_lIYo7uHzGu?usp=sharing'
     },
     {   
@@ -53,7 +53,7 @@ const projects = [
         description: 'An ice cream company inauguration create a welcome post with opening details and logo mentioned in the post.',
         image: './projects/Ice Cream.png',
         tags: ['Social Media', 'Branding', 'Logo Design'],
-        demoUrl: '#',
+        demoUrl: 'https://drive.google.com/drive/folders/17ilppjBqEuYWkKy9OYJdFQj_N69ySOuq?usp=sharing',
         githubUrl: 'https://drive.google.com/drive/folders/17ilppjBqEuYWkKy9OYJdFQj_N69ySOuq?usp=sharing'
     }
 
