@@ -98,7 +98,13 @@ export const ContactSection = () => {
             <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
             <div>
               <form
-                onSubmit={handleSubmit}
+                onSubmit={(e) => {
+                  e.preventDefault(e).then(() => {
+                    if (state.succeeded) {
+                      e.target.reset()
+                    }
+                  })
+                }}
                 method="POST"
                 action={"https://formspree.io/f/mjkooona"}
               >
@@ -178,3 +184,4 @@ export const ContactSection = () => {
   );
 
 };
+
