@@ -17,7 +17,7 @@ export const AboutSection = () => {
             <h3 className="text-2xl font-size semibold">Passionate Designer </h3>
 
             <p>
-              A dedicated and detail-oriented designer with a strong foundation in visual communication and a passion for creating thoughtful, impactful design solutions. With experience across digital and print platforms, I specialize in developing cohesive brand identities, user-centric interfaces, and visually compelling content that aligns with strategic objectives.
+              A dedicated and detail-oriented designer with a strong foundation in visual communication and a passion for creating thoughtful, impactful design solutions. <br/>With experience across digital and print platforms, I specialize in developing cohesive brand identities, user-centric interfaces, and visually compelling content that aligns with strategic objectives.
             </p>
               <p>Currently building hands-on experience through personal and freelance projects.</p>
 
